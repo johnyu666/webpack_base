@@ -12,6 +12,12 @@ module.exports={
     },
     module: {
         rules: [
+            //=======在.babelrc中也可进行相应的配置工作=================
+            // {
+            //     test: /\.js$/,
+            //     exclude: /(node_modules|bower_components)/,
+            //     use: {loader: 'babel-loader', options: {presets: ['env']}}
+            // },
             {test:/\.css$/, use: ['style-loader','css-loader']},
             {test:/\.(gif|img|png)$/, use: "file-loader"},
             {test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,use: ['url-loader']},

@@ -6,13 +6,11 @@ import 'expose-loader?jQuery!jquery'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap-theme.css'
+import {m} from './myMath'
 window.onload=function () {
    $("#root").addClass("hi");
     let img=new Image();
     img.src=a1;
     document.getElementById("root").appendChild(img);
-    $("#showModal").on("click",function () {
-        $('#myModal').modal();
-    })
-
+ 
 }
