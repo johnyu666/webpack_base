@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap-theme.css'
 import {m} from './myMath'
-console.log(m)
+alert(m);
 window.onload=function () {
    $("#root").addClass("hi");
     let img=new Image();
